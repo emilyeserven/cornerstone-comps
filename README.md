@@ -6,9 +6,15 @@ This project is a compilation of [Cornerstone](https://theme.co/cornerstone/) el
 
 ### Icon Box
 
-*Description*: A box that has an icon on the side. 
+*Description*: A box that has an icon on the side.
 
 * Need to make this more user-friendly!
+
+### Header & Subheader
+
+*Description*: An element that allows the display of a main header and subheader next to each other.
+
+* I don't know why, but the CSS isn't sticking outside of my test environment. Something to look into later...
 
 ## To-Do List
 

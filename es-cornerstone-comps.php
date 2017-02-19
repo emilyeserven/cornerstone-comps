@@ -18,6 +18,7 @@ add_action( 'cornerstone_register_elements', 'my_extension_register_elements' );
 function my_extension_register_elements() {
 
 	cornerstone_register_element( 'Iconbox_Element', 'iconbox-element', MY_PLUGIN_PATH . 'includes/iconbox-element' );
+    cornerstone_register_element( 'Header_Subheader_Element', 'header-subheader-element', MY_PLUGIN_PATH . 'includes/header-subheader-element' );
 
 }
 

@@ -1,13 +1,8 @@
-/*
- This quick example demonstrates the potentially drastic effects of simply
- toggling a class on an element.
- */
+/* ICONBOX INFO */
 
 .iconbox-icon-holder {
     display: table-cell !important;
-    width: 20%;
-    float: left;
-    vertical-align: top;
+    vertical-align:top;
 }
 .iconbox-icon-holder i {
     text-align: center;
@@ -19,12 +14,20 @@
     margin-top: 0;
 }
 .iconbox-text-holder {
-    width: 80%;
-    float: right;
     padding: 10px 20px;
     display: table-cell;
 }
 .iconbox-block {
     display: table;
     width: 100%;
+}
+
+/* HEADING AND SUBHEADING */
+.header-subheader-block .header,
+.header-subheader-block .heading_separator,
+.header-subheader-block .subheading,
+.header-subheader-block h2,
+.header-subheader-block span,
+.header-subheader-block h3 {
+    display:inline !important;
 }

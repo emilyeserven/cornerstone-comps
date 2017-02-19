@@ -28,6 +28,7 @@ return array(
 			'tooltip' => __( 'Specify the icon you would like to use as the bullet for your Icon List Item.', 'es-cornerstone-comps' ),
 		)
 	),
+
     'icon_size' => array(
         'type' => 'number',
         'ui'   => array(
@@ -35,6 +36,15 @@ return array(
             'tooltip'   => __( 'Description'),
         ),
 	'suggest' => __('5.5', 'es-cornerstone-comps'),
+    ),
+
+    'icon_width' => array(
+        'type' => 'number',
+        'ui'   => array(
+            'title'     => __( 'Icon Width in %', 'es-cornerstone-comps' ),
+            'tooltip'   => __( 'Description'),
+        ),
+	'suggest' => __('20', 'es-cornerstone-comps'),
     ),
 
     'icon_margin_comp' => array(
@@ -64,10 +74,10 @@ return array(
         'suggest' => __('#D50032', 'es-cornerstone-comps'),
     ),
 
-    'content_height' => array(
+    'content_min_height' => array(
         'type' => 'number',
         'ui'   => array(
-            'title'     => __( 'Content Height in em', 'es-cornerstone-comps' ),
+            'title'     => __( 'Content Minimum Height in em', 'es-cornerstone-comps' ),
             'tooltip'   => __( 'Description'),
         ),
 	'suggest' => __('7.9', 'es-cornerstone-comps'),
