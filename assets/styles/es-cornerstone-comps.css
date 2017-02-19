@@ -1,0 +1,37 @@
+/*
+ This quick example demonstrates the potentially drastic effects of simply
+ toggling a class on an element.
+ */
+
+.iconbox-icon-holder {
+    display: table-cell !important;
+    width: 20%;
+    float: left;
+    background-color: #D50032;
+    height: 7.9em;
+    vertical-align: top;
+}
+.iconbox-icon-holder i {
+    font-size: 5.5em;
+    text-align: center;
+    line-height: 1em;
+    padding: .1em;
+    width: 100%;
+    margin-top: -15px;
+    color: #fff;
+}
+.iconbox-block h4 {
+    margin-top: 0;
+}
+.iconbox-text-holder {
+    width: 80%;
+    float: right;
+    padding: 10px 20px;
+    display: table-cell;
+    height: 7.9em;
+    background-color: #fff;
+}
+.iconbox-block {
+    display: table;
+    width: 100%;
+}
