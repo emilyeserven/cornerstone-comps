@@ -37,4 +37,49 @@ return array(
 	'suggest' => __('5.5', 'es-cornerstone-comps'),
     ),
 
+    'icon_margin_comp' => array(
+        'type' => 'number',
+        'ui'   => array(
+            'title'     => __( 'Icon Margin Compensation in px', 'es-cornerstone-comps' ),
+            'tooltip'   => __( 'Description'),
+        ),
+	'suggest' => __('-15', 'es-cornerstone-comps'),
+    ),
+
+    'icon_color' => array(
+        'type'  => 'color',
+        'ui'    => array(
+            'title'     => __( 'Icon Color', 'es-cornerstone-comps' ),
+            'tooltip'   => __( 'Description'),
+        ),
+        'suggest' => __('#fff', 'es-cornerstone-comps'),
+    ),
+
+    'icon_bg' => array(
+        'type'  => 'color',
+        'ui'    => array(
+            'title'     => __( 'Icon Background Color', 'es-cornerstone-comps' ),
+            'tooltip'   => __( 'Description'),
+        ),
+        'suggest' => __('#D50032', 'es-cornerstone-comps'),
+    ),
+
+    'content_height' => array(
+        'type' => 'number',
+        'ui'   => array(
+            'title'     => __( 'Content Height in em', 'es-cornerstone-comps' ),
+            'tooltip'   => __( 'Description'),
+        ),
+	'suggest' => __('7.9', 'es-cornerstone-comps'),
+    ),
+
+    'content_bg' => array(
+        'type'  => 'color',
+        'ui'    => array(
+            'title'     => __( 'Content Background Color', 'es-cornerstone-comps' ),
+            'tooltip'   => __( 'Description'),
+        ),
+        'suggest' => __('#FFF', 'es-cornerstone-comps'),
+    ),
+
 );
