@@ -28,5 +28,13 @@ return array(
 			'tooltip' => __( 'Specify the icon you would like to use as the bullet for your Icon List Item.', 'es-cornerstone-comps' ),
 		)
 	),
+    'icon_size' => array(
+        'type' => 'number',
+        'ui'   => array(
+            'title'     => __( 'Icon Size in em', 'es-cornerstone-comps' ),
+            'tooltip'   => __( 'Description'),
+        ),
+	'suggest' => __('5.5', 'es-cornerstone-comps'),
+    ),
 
 );

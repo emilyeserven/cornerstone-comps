@@ -6,7 +6,7 @@ $icon_atts = cs_atts( array(
  ?>
 <div class="iconbox-block">
     <div class="iconbox-icon-holder">
-        <i class="x-icon <?php echo $icon_atts; ?>" aria-hidden="true"></i>
+        <i class="x-icon <?php echo $icon_atts; ?>" style="font-size: <?php echo $icon_size; ?>em" aria-hidden="true"></i>
     </div>
     <div class="iconbox-text-holder">
         <div class="iconbox-heading">
