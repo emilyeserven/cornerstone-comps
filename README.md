@@ -10,6 +10,12 @@ This project is a compilation of [Cornerstone](https://theme.co/cornerstone/) el
 
 * Need to make this more user-friendly!
 
+### Image Box
+
+*Description*: Aesthetically identical to the icon box, but takes images (ie SVGs) instead of the fontawesome library.
+
+* This should be bundled in with the icon box, ideally.
+
 ### Header & Subheader
 
 *Description*: An element that allows the display of a main header and subheader next to each other.
