@@ -4,11 +4,11 @@
  * Element Definition
  */
 
-class Header_Subheader_Element {
+class Header_With_Subheader_Element {
 
 	public function ui() {
 		return array(
-      'title'       => __( 'Header &amp; Subheader Element', 'es-cornerstone-comps' )/*,
+      'title'       => __( 'Header with Subheader Element', 'es-cornerstone-comps' )/*,
        'autofocus' => array(
     		'heading' => 'h4.my-first-element-heading',
     		'content' => '.my-first-element'

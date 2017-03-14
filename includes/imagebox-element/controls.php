@@ -1,11 +1,8 @@
 <?php
-
 /**
  * Element Controls
  */
-
 return array(
-
 	'heading' => array(
 		'type'    => 'text',
 		'ui' => array(
@@ -15,7 +12,6 @@ return array(
 		'context' => 'content',
     'suggest' => __( 'Heading', 'es-cornerstone-comps' ),
 	),
-
 	'content' => array(
 		'type'    => 'textarea',
 		'context' => 'content',
@@ -28,7 +24,6 @@ return array(
 			'tooltip' => __( 'Specify the icon you would like to use as the bullet for your Icon List Item.', 'es-cornerstone-comps' ),
 		)
 	),
-
     'icon_size' => array(
         'type' => 'number',
         'ui'   => array(
@@ -37,7 +32,6 @@ return array(
         ),
 	'suggest' => __('50', 'es-cornerstone-comps'),
     ),
-
     'icon_width' => array(
         'type' => 'number',
         'ui'   => array(
@@ -46,7 +40,6 @@ return array(
         ),
 	'suggest' => __('20', 'es-cornerstone-comps'),
     ),
-
     'icon_margin_comp' => array(
         'type' => 'number',
         'ui'   => array(
@@ -55,7 +48,6 @@ return array(
         ),
 	'suggest' => __('-15', 'es-cornerstone-comps'),
     ),
-
     'icon_bg' => array(
         'type'  => 'color',
         'ui'    => array(
@@ -64,7 +56,6 @@ return array(
         ),
         'suggest' => __('#D50032', 'es-cornerstone-comps'),
     ),
-
     'content_bg' => array(
         'type'  => 'color',
         'ui'    => array(
@@ -73,5 +64,4 @@ return array(
         ),
         'suggest' => __('#FFF', 'es-cornerstone-comps'),
     ),
-
 );

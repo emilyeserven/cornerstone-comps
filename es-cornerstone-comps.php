@@ -6,7 +6,7 @@ Plugin URI:
 Description: Extra components for the Cornerstone builder on WordPress.
 Author: Emily Serven
 Author URI: www.emilyserven.net
-Version: 0.2.1
+Version: 0.3.0
 */
 
 define( 'MY_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
@@ -19,8 +19,8 @@ function my_extension_register_elements() {
 
 	cornerstone_register_element( 'Iconbox_Element', 'iconbox-element', MY_PLUGIN_PATH . 'includes/iconbox-element' );
 	cornerstone_register_element( 'Imagebox_Element', 'imagebox-element', MY_PLUGIN_PATH . 'includes/imagebox-element' );
-    cornerstone_register_element( 'Header_Subheader_Element', 'header-subheader-element', MY_PLUGIN_PATH . 'includes/header-subheader-element' );
-    //cornerstone_register_element( 'Image_Tabs_Box_Element', 'header-subheader-element', MY_PLUGIN_PATH . 'includes/image-tabs-box-element' );
+    cornerstone_register_element( 'Header_With_Subheader_Element', 'header-with-subheader-element', MY_PLUGIN_PATH . 'includes/header-with-subheader-element' );
+    cornerstone_register_element( 'Image_Tabs_Element', 'image-tabs-element', MY_PLUGIN_PATH . 'includes/image-tabs-element' );
 
 }
 

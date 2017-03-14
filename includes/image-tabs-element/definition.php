@@ -4,11 +4,11 @@
  * Element Definition
  */
 
-class Iconbox_Element {
+class Image_Tabs_Element {
 
 	public function ui() {
 		return array(
-      'title'       => __( 'Iconbox Element', 'es-cornerstone-comps' )/*,
+      'title'       => __( 'Image Tabs Element', 'es-cornerstone-comps' )/*,
        'autofocus' => array(
     		'heading' => 'h4.my-first-element-heading',
     		'content' => '.my-first-element'

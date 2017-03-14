@@ -22,6 +22,16 @@ This project is a compilation of [Cornerstone](https://theme.co/cornerstone/) el
 
 * I don't know why, but the CSS isn't sticking outside of my test environment. Something to look into later...
 
+### Image Tabs
+
+*Description*: Originally this was supposed to be more dynamic. However, due to work and time constraints, I had to use a more hacky and less flexible solution for now.
+
+Files in original *Cornerstone* plugin that make up the tabs:
+
+* `/includes/shortcodes/tabs.php`
+* `/includes/elements/_alternate/tab.php`
+* `/includes/classes/builder/class-shortcode-generator.php`
+
 ## To-Do List
 
 * Provide instructions on how to make this set more modular.
@@ -36,3 +46,5 @@ This project is a compilation of [Cornerstone](https://theme.co/cornerstone/) el
 `0.2.0` - Added the *Imagebox* element.
 
 `0.2.1` - Added the margin compensation to the *Imagebox* element.
+
+`0.3.0` - Added Image Tabs element.
