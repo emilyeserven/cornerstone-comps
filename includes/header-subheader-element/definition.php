@@ -4,7 +4,7 @@
  * Element Definition
  */
 
-class Header_With_Subheader_Element {
+class Header_Subheader_Element {
 
 	public function ui() {
 		return array(
