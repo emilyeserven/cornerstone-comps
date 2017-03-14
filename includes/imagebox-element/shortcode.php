@@ -9,7 +9,7 @@ $content_width = 100 - $icon_width;
  ?>
 <div class="iconbox-block">
     <div class="iconbox-icon-holder" style="background-color: <?php echo $icon_bg;?>; width: <?php echo $icon_width;?>%;">
-        <img src="<?php echo $image; ?>" width="<?php echo $icon_size;?>px" height="<?php echo $icon_size;?>px" />
+        <img src="<?php echo $image; ?>" width="<?php echo $icon_size;?>px" height="<?php echo $icon_size;?>px" style="margin-top:<?php echo $icon_margin_comp;?>px;" />
     </div>
     <div class="iconbox-text-holder" style="background-color: <?php echo $content_bg;?>; width: <?php echo $content_width;?>%;">
         <div class="iconbox-heading">

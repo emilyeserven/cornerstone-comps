@@ -27,9 +27,12 @@ This project is a compilation of [Cornerstone](https://theme.co/cornerstone/) el
 * Provide instructions on how to make this set more modular.
 * Write a basic tutorial on how to make your own elements
 * Better descriptions for the elements included in this set
+* SVG (Copy and paste or upload) elements
 
 ### (Loose) Changelog
 
 `0.1.0` - Initial version. Included the *Iconbox* and *Header & Subheader* elements.
 
 `0.2.0` - Added the *Imagebox* element.
+
+`0.2.1` - Added the margin compensation to the *Imagebox* element.

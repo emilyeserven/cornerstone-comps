@@ -6,7 +6,7 @@ Plugin URI:
 Description: Extra components for the Cornerstone builder on WordPress.
 Author: Emily Serven
 Author URI: www.emilyserven.net
-Version: 0.2.0
+Version: 0.2.1
 */
 
 define( 'MY_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
