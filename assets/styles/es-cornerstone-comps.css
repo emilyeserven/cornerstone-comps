@@ -31,3 +31,8 @@
 .header-subheader-block h3 {
     display:inline !important;
 }
+
+/* IMAGE TABS */
+.x-tab-content h4, .x-tab-content h5 {
+    margin-top: 0;
+}

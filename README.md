@@ -48,3 +48,7 @@ Files in original *Cornerstone* plugin that make up the tabs:
 `0.2.1` - Added the margin compensation to the *Imagebox* element.
 
 `0.3.0` - Added Image Tabs element.
+
+`0.3.1` - Fixed shortcode compatibility issue.
+
+`0.3.2` - Added header and subheader to image tabs element, plus a `div` wrapper to elements.
